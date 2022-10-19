@@ -1,7 +1,7 @@
 :root {
     --main-font: 'Roboto', sans-serif;
-    --blacklish: color: 212121;
-    --darkish: color 757575
+    --blacklish: color: #212121;
+    --darkish: color #757575
 }
 
 body {
@@ -9,7 +9,8 @@ body {
     margin: 0;
 }
 
-ul {
+ul,
+ol {
     list-style: none;
 }
 
@@ -151,7 +152,12 @@ section {
 
 
 .hero {
-    background: #2F303A;
+    background-color: #212121;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/hero/hero.img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 200px 0 280px;
 }
 
@@ -337,6 +343,46 @@ section {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-bottom: 16px;
+}
+
+.div-name {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+}
+
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    fill: #2196F3
+}
+
+.social-list-icon:hover,
+.social-list-icon:focus {
+    fill: #2196F3;
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-list-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.social-list-icon {
+    background-color: black;
 }
 
 /* ----team-end---- */
