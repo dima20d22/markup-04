@@ -359,16 +359,14 @@ section {
     width: 44px;
     height: 44px;
     border-radius: 50%;
+
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
-    fill: #2196F3
-}
-
-.social-list-icon:hover,
-.social-list-icon:focus {
-    fill: #2196F3;
+    fill: #FFFFFF;
+    background-color: #2196F3;
+    color: white;
 }
 
 .social-link {
@@ -376,13 +374,10 @@ section {
     justify-content: space-between;
 }
 
+
 .social-list-icon {
     width: 20px;
     height: 20px;
-}
-
-.social-list-icon {
-    background-color: black;
 }
 
 /* ----team-end---- */
