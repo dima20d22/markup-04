@@ -359,14 +359,13 @@ section {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-
+    fill: #AFB1B8;
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
     fill: #FFFFFF;
     background-color: #2196F3;
-    color: white;
 }
 
 .social-link {
