@@ -114,7 +114,19 @@ section {
     margin-left: auto;
 }
 
-.menu-link {
+.contact-icon {
+    width: 16px;
+    height: 12px;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+
+.header-list:hover,
+.header-list:focus {
+    Fill: #2196F3
+}
+
+.contact .contact-icon::after .menu-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -218,7 +230,21 @@ section {
 .menu-peculiarity {
     display: flex;
     flex-direction: row;
+}
 
+.pecul-icon {
+    display: block;
+    width: 65px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.div-pecul-icon {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
 }
 
 .peculiarity-menu {
