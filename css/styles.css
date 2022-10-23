@@ -233,19 +233,19 @@ section {
 }
 
 .pecul-icon {
-    display: inline-block;
-    width: 65px;
-    height: 70px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    display: flex;
+    background-position: center;
 }
 
 .div-pecul-icon {
-    text-align: center;
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
-    margin-bottom: 30px;
+}
+
+.pecul-icon {
+    width: 70px;
+    height: 70px;
 }
 
 .peculiarity-menu {
@@ -407,6 +407,34 @@ section {
 }
 
 /* ----team-end---- */
+
+/* ------clients------- */
+
+.regular-customers {
+    color: #212121;
+    font-size: 36px;
+    line-height: 42px;
+    line-height: 100%;
+    align-items: center;
+}
+
+.clients-icon {
+    width: 170px;
+    height: 92px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.div-clients {
+    /* height: 184px; */
+    margin: 0 auto;
+}
+
+/* ------clients-end----- */
 
 /* -----END HERO */
 
