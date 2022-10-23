@@ -233,18 +233,19 @@ section {
 }
 
 .pecul-icon {
-    display: block;
+    display: inline-block;
     width: 65px;
     height: 70px;
-    margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
 .div-pecul-icon {
+    text-align: center;
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
+    margin-bottom: 30px;
 }
 
 .peculiarity-menu {
