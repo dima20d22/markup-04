@@ -427,10 +427,11 @@ section {
 
 .clients-menu {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .clients-list {
+    box-sizing: content-box;
     width: 170px;
     height: 92px;
     left: 615px;
@@ -449,8 +450,8 @@ section {
 }
 
 .clients-icon {
-    width: 106px;
-    height: 60px;
+    width: 40px;
+    height: 52px;
     padding: 16px 32px;
     fill: #AFB1B8;
 }
