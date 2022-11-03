@@ -445,13 +445,13 @@ section {
 
 .clients-list:hover,
 .clients-list:focus {
-    /* fill: #2196F3; */
+    fill: #2196F3;
     Stroke: Solid #2196F3;
 }
 
+/* -----hover----focus--- */
+
 .clients-icon {
-    /* width: 40px;
-    height: 52px; */
     padding: 16px 32px;
     fill: #AFB1B8;
 }
