@@ -427,16 +427,21 @@ section {
 
 .clients-menu {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    /* flex-basis: calc(100%-150px)/6; */
+    /* width: calc(100%-150px)/6; */
 }
 
 .clients-list {
-    box-sizing: content-box;
-    width: 170px;
+    box-sizing: border-box;
+
+
+    /* width: 170px;
     height: 92px;
     left: 615px;
-    top: 2493px;
+    top: 2493px; */
     border: 1px solid #AFB1B8;
+    border-radius: 5px;
 }
 
 .clients-list:not(:last-child) {
@@ -454,6 +459,11 @@ section {
 .clients-icon {
     padding: 16px 32px;
     fill: #AFB1B8;
+}
+
+.clients-list {
+    /* width: 170px; */
+    height: 92px;
 }
 
 
