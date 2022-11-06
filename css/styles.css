@@ -444,8 +444,13 @@ section {
 
 
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-link:hover>svg,
+.clients-link:focus>svg {
+    fill: #2196F3;
+}
+
+.clients-link:hover>border,
+.clients-link:focus>border {
     fill: #2196F3;
 }
 
