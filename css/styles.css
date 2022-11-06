@@ -434,12 +434,6 @@ section {
 
 .clients-list {
     box-sizing: border-box;
-
-
-    /* width: 170px;
-    height: 92px;
-    left: 615px;
-    top: 2493px; */
     border: 1px solid #AFB1B8;
     border-radius: 5px;
 }
@@ -448,10 +442,11 @@ section {
     margin-right: 30px;
 }
 
-.clients-list:hover,
-.clients-list:focus {
+
+
+.clients-link:hover,
+.clients-link:focus {
     fill: #2196F3;
-    Stroke: Solid #2196F3;
 }
 
 /* -----hover----focus--- */
@@ -462,7 +457,7 @@ section {
 }
 
 .clients-list {
-    /* width: 170px; */
+    width: 170px;
     height: 92px;
 }
 
