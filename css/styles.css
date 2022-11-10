@@ -452,10 +452,6 @@ section {
     border: 1px solid #2196F3;
 }
 
-.clients-link:hover>border {}
-
-/* -----hover----focus--- */
-
 .clients-icon {
     padding: 16px 32px;
     fill: #AFB1B8;
