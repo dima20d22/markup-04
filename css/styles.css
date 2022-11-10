@@ -428,8 +428,6 @@ section {
 .clients-menu {
     display: flex;
     flex-wrap: wrap;
-    /* flex-basis: calc(100%-150px)/6; */
-    /* width: calc(100%-150px)/6; */
 }
 
 .clients-list {
@@ -449,10 +447,12 @@ section {
     fill: #2196F3;
 }
 
-.clients-link:hover>border,
-.clients-link:focus>border {
-    fill: #2196F3;
+.clients-list:hover,
+.clients-list:focus {
+    border: 1px solid #2196F3;
 }
+
+.clients-link:hover>border {}
 
 /* -----hover----focus--- */
 
